@@ -213,7 +213,8 @@ canvas {
 .slider {
   background-color: black;
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  overflow-x: hidden;
 }
 .slider__container {
   margin-top: 68px;

@@ -15,7 +15,8 @@
 .slider{
     background-color: black;
     position: relative;
-    overflow: hidden;
+    width: 100%;
+    overflow-x: hidden;
     
     &__container{
         margin-top: $header-height;
