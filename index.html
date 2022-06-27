@@ -544,7 +544,7 @@
                         <form action="https://formsubmit.co/nguyenthuy030800@gmail.com" method="POST" class="contact__form row g-2">
                             <div class="form__container col-lg-6">
                                 <div class="form__part">
-                                    <input name="fullname" type="text" class="form__input" id="fullname" placeholder="Full Name">
+                                    <input name="fullname" type="text" class="form__input" id="fullname" placeholder="Full Name" isRequired>
                                     <p class="form__message"></p>
                                 </div>
                             </div>
@@ -627,6 +627,7 @@
                 Validator.lengthRequired('#phone',9),
                 Validator.isRequired('#message'),
                 Validator.lengthRequired('#message',20),
+
             ],
             onSubmit: (data)=>{
                 console.log(data)

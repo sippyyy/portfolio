@@ -50,6 +50,7 @@ const Validator = (options)=>{
                     const inputElement = formElement.querySelector(rule.selector)
                     inputElement.value=''
                 })
+                e.default()
     
             }else{
                 e.preventDefault()
