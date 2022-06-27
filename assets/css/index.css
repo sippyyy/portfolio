@@ -11,8 +11,10 @@ html {
 }
 
 body {
+  width: 100%;
   color: rgb(222, 222, 222);
   font-size: 1.6rem;
+  overflow-X: hidden;
   font-family: "Itim", cursive;
 }
 
@@ -211,6 +213,7 @@ canvas {
 .slider {
   background-color: black;
   position: relative;
+  overflow: hidden;
 }
 .slider__container {
   margin-top: 68px;
@@ -691,8 +694,8 @@ canvas {
 }
 .contact__hover {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
   top: 33%;
   left: 50%;
   transform: translateX(-80%);

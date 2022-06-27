@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Petit+Formal+Script&family=Rowdies:wght@300;400&display=swap" rel="stylesheet">
@@ -108,6 +108,11 @@
                                 <div class="about__data">
                                     <span class="about__tag">Full Name:</span>
                                     <span class="about__detail">Nguyen Thi Thu Thuy</span>
+                                </div>
+
+                                <div class="about__data">
+                                    <span class="about__tag">English Name:</span>
+                                    <span class="about__detail">Sippy</span>
                                 </div>
 
                                 <div class="about__data">
@@ -228,17 +233,17 @@
                                         <div class="detail__block">
                                             <img src="./assets/img/api.png" alt="" class="detail__icon">
                                             <p class="detail__tag">API Source:</p>
-                                            <a href="https://www.themoviedb.org/" class="detail__value">The Movie DB</a>
+                                            <a href="https://www.themoviedb.org/" target="_blank" class="detail__value">The Movie DB</a>
                                         </div>
                                         <div class="detail__block">
                                             <img src="./assets/img/code.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Source Github:</p>
-                                            <a href="https://github.com/sippyyy/NetFlix-ui" class="detail__value">Github</a>
+                                            <a href="https://github.com/sippyyy/NetFlix-ui" target="_blank" class="detail__value">Github</a>
                                         </div>
                                         <div class="detail__block">
                                             <img src="./assets/img/browser.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Demo Website:</p>
-                                            <a href="https://netflixui-eight.vercel.app/" class="detail__value">Clone Netflix UI</a>
+                                            <a href="https://netflixui-eight.vercel.app/" target="_blank" class="detail__value">Clone Netflix UI</a>
                                         </div>
                                     </div>
                                 </div>
@@ -327,12 +332,12 @@
                                         <div class="detail__block">
                                             <img src="./assets/img/code.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Source Github:</p>
-                                            <a href="https://github.com/sippyyy/foody-website" class="detail__value">Github</a>
+                                            <a href="https://github.com/sippyyy/foody-website" target="_blank" class="detail__value">Github</a>
                                         </div>
                                         <div class="detail__block">
                                             <img src="./assets/img/browser.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Demo Website:</p>
-                                            <a href="https://foody-website-kohl.vercel.app" class="detail__value">Foody</a>
+                                            <a href="https://foody-website-kohl.vercel.app" target="_blank" class="detail__value">Foody</a>
                                         </div>
                                     </div>
                                 </div>
@@ -419,12 +424,12 @@
                                         <div class="detail__block">
                                             <img src="./assets/img/code.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Source Github:</p>
-                                            <a href="https://github.com/sippyyy/charity-children-website" class="detail__value">Github</a>
+                                            <a href="https://github.com/sippyyy/charity-children-website" target="_blank" class="detail__value">Github</a>
                                         </div>
                                         <div class="detail__block">
                                             <img src="./assets/img/browser.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Demo Website:</p>
-                                            <a href="http://charity-children-website.vercel.app/" class="detail__value">Save African Children</a>
+                                            <a href="http://charity-children-website.vercel.app/" target="_blank" class="detail__value">Save African Children</a>
                                         </div>
                                     </div>
                                 </div>
@@ -491,12 +496,12 @@
                                         <div class="detail__block">
                                             <img src="./assets/img/code.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Source Github:</p>
-                                            <a href="https://github.com/sippyyy/Music-app" class="detail__value">Github</a>
+                                            <a href="https://github.com/sippyyy/Music-app" target="_blank" class="detail__value">Github</a>
                                         </div>
                                         <div class="detail__block">
                                             <img src="./assets/img/browser.png" alt="" class="detail__icon">
                                             <p class="detail__tag">Demo Website:</p>
-                                            <a href="https://music-app-delta.vercel.app/" class="detail__value">Music App</a>
+                                            <a href="https://music-app-delta.vercel.app/" target="_blank" class="detail__value">Music App</a>
                                         </div>
                                     </div>
                                 </div>
@@ -536,34 +541,28 @@
                         <div class="contact__hover"></div>
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 col-12 form" data-aos="fade-left" data-aos-duration="800"  data-aos-delay="500" data-aos-offset="0">
-                        <form action="" class="contact__form row g-2">
+                        <form action="https://formsubmit.co/9eb1d87835c003d7258ff6a93b85ad82" method="POST" class="contact__form row g-2">
                             <div class="form__container col-lg-6">
                                 <div class="form__part">
-                                    <input type="text" class="form__input" id="fullname" placeholder="Full Name">
+                                    <input name="fullname" type="text" class="form__input" id="fullname" placeholder="Full Name">
                                     <p class="form__message"></p>
                                 </div>
                             </div>
                             <div class="form__container col-lg-6">
                                 <div class="form__part">
-                                    <input type="text" class="form__input" id="email" placeholder="Email Address">
+                                    <input name="email" type="text" class="form__input" id="email" placeholder="Email Address">
                                     <p class="form__message"></p>
                                 </div>
                             </div>
                             <div class="form__container col-lg-12">
                                 <div class="form__part">
-                                    <input type="text" class="form__input" id="phone" placeholder="Phone Number">
+                                    <input name="phone" type="text" class="form__input" id="phone" placeholder="Phone Number">
                                     <p class="form__message"></p>
                                 </div>
                             </div>
                             <div class="form__container col-lg-12">
                                 <div class="form__part">
-                                    <textarea type="text" class="form__input" id="message" placeholder="Give Me A Message ^^"></textarea>
-                                    <p class="form__message"></p>
-                                </div>
-                            </div>
-                            <div class="form__container col-lg-12">
-                                <div class="form__part">
-                                    <input type="file" class="form__input" id="file">
+                                    <textarea name="mesage" type="text" class="form__input" id="message" placeholder="Give Me A Message ^^"></textarea>
                                     <p class="form__message"></p>
                                 </div>
                             </div>
@@ -628,7 +627,6 @@
                 Validator.lengthRequired('#phone',9),
                 Validator.isRequired('#message'),
                 Validator.lengthRequired('#message',20),
-                Validator.isRequired('#file','Please choose a file(that could be your offer, Job Description,...)'),
             ],
             onSubmit: (data)=>{
                 console.log(data)
