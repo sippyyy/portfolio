@@ -14,6 +14,8 @@ body {
   color: rgb(222, 222, 222);
   font-size: 1.6rem;
   font-family: "Itim", cursive;
+  width: 100%;
+  overflow-x:hidden;
 }
 
 p, h1, h2, h3, h4, h5 {
@@ -211,6 +213,8 @@ canvas {
 .slider {
   background-color: black;
   position: relative;
+  width: 100%;
+  overflow-x:hidden;
 }
 .slider__container {
   margin-top: 68px;
