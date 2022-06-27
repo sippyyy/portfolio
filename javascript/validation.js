@@ -26,6 +26,7 @@ const Validator = (options)=>{
 
         formElement.onsubmit = function(e){
 
+
             let formIsValid = true
 
             options.rules.forEach(rule=>{
@@ -50,6 +51,8 @@ const Validator = (options)=>{
                     inputElement.value=''
                 })
     
+            }else{
+                e.preventDefault()
             }
     
         }
