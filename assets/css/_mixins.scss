@@ -70,7 +70,7 @@
 
 @mixin translate-after{
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(10%);
 }
 
 @mixin waveDelay{
@@ -94,6 +94,39 @@
     }
     &:nth-child(6){
         @include transition(1.2s)
+    }
+    &:nth-child(7){
+        @include transition(1.4s)
+    }
+    &:nth-child(8){
+        @include transition(1.6s)
+    }
+
+    &:nth-child(9){
+        @include transition(1.8s)
+    }
+
+    &:nth-child(10){
+        @include transition(2s)
+    }
+
+    &:nth-child(11){
+        @include transition(2.2s)
+    }
+    &:nth-child(12){
+        @include transition(2.4s)
+    }
+    &:nth-child(13){
+        @include transition(2.6s)
+    }
+    &:nth-child(14){
+        @include transition(2.8s)
+    }
+    &:nth-child(15){
+        @include transition(3s)
+    }
+    &:nth-child(16){
+        @include transition(3.2s)
     }
 }
 
